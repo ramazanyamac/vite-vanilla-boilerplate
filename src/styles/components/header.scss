@@ -1,0 +1,21 @@
+.header {
+    @apply h-16 xl:h-[99px] bg-white w-full shadow-md flex justify-between items-center px-[1rem] xl:px-11;
+
+    &__left {
+        a {
+            @apply font-bold text-[22px] leading-7 text-[#14203e3d];
+        }
+    }
+
+    &__nav {
+        @apply xl:flex hidden gap-14;
+    }
+
+    &__link {
+        @apply text-primary font-normal text-[18px];
+    }
+
+    &__buttons {
+        @apply flex gap-4;
+    }
+}

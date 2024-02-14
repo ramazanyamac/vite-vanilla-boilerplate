@@ -1,0 +1,19 @@
+.card {
+  @apply w-full;
+
+  &__img {
+    @apply w-full object-cover;
+  }
+
+  &__body {
+    @apply py-5;
+  }
+
+  &__title {
+    @apply text-primary font-bold text-[22px] mb-4;
+  }
+
+  &__time {
+    @apply text-[14px] text-primary font-light;
+  }
+}

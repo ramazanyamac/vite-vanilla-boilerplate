@@ -1,0 +1,11 @@
+.blog {
+  @apply py-8;
+
+  &__title {
+    @apply text-center font-bold text-primary mb-8;
+  }
+
+  &__cards {
+    @apply grid xl:grid-cols-[1fr_1fr_1fr_1fr] md:grid-cols-[1fr_1fr] gap-8;
+  }
+}

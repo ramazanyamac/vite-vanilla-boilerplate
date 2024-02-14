@@ -1,0 +1,11 @@
+.button {
+    @apply text-white bg-primary font-normal rounded-xl xl:text-[18px] text-sm px-5 xl:px-7 py-3 focus:outline-none;
+
+    &--secondary {
+      @apply bg-secondary text-black;
+    }
+
+    &--large {
+      @apply xl:px-10 xl:py-6;
+    }
+}

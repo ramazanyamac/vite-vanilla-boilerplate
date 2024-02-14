@@ -1,0 +1,18 @@
+@import './components/all.scss';
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  @apply font-primary;
+}
+
+a,
+button {
+    transition: color 0.3s ease-in-out, border 0.3s ease-in-out, background-color 0.3s ease-in-out,
+        background-image 0.3s ease-in-out, opacity 0.3s ease-in-out, box-shadow 0.3s ease-in-out,
+        padding 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out, -moz-box-shadow 0.3s ease-in-out;
+}

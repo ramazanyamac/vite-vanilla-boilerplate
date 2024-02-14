@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600&display=swap"
+    rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite App</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__left">
+      <a href="/">LOGO</a>
+    </div>
+    <nav class="header__nav">
+      <a class="header__link" href="javascript:;">Home</a>
+      <a class="header__link" href="javascript:;">Articles</a>
+      <a class="header__link" href="javascript:;">Pricing</a>
+      <a class="header__link" href="javascript:;">About</a>
+      <a class="header__link" href="javascript:;">Contact</a>
+    </nav>
+    <div class="header__buttons">
+      <button class="button button--secondary">Log In</button>
+      <button class="button">Start Free Trial</button>
+    </div>
+  </header>
+  <main>
+    <section class="showcase">
+      <div class="container">
+        <article class="showcase__article">
+          <h1 class="showcase__title">A modern way to build websites.</h1>
+          <p class="showcase__text">Empower designers to build professional, custom websites in a completely visual
+            canvas with no code.</p>
+          <div class="showcase__bottom">
+            <button class="button button--large">Start free trial</button>
+          </div>
+        </article>
+      </div>
+    </section>
+    <section class="blog">
+      <div class="container">
+        <h2 class="blog__title">We share our thoughts on design</h2>
+        <div class="blog__cards">
+          <div class="card">
+            <a href="#">
+              <img src="./src/assets/images/rectangle-8.jpg" alt="" class="card__img">
+            </a>
+            <div class="card__body">
+              <h5 class="card__title">Redesigning my site increased sales by over 400% in one week.</h5>
+              <time datetime="2020-01-01" class="card__time">Jul 1, 2020</time>
+            </div>
+          </div>
+
+          <div class="card">
+            <a href="#">
+              <img src="./src/assets/images/rectangle-7.jpg" alt="" class="card__img">
+            </a>
+            <div class="card__body">
+              <h5 class="card__title">Design handoff: What engineers really want to see</h5>
+              <time datetime="2020-01-01" class="card__time">Jul 1, 2020</time>
+            </div>
+          </div>
+
+          <div class="card">
+            <a href="#">
+              <img src="./src/assets/images/rectangle-6.jpg" alt="" class="card__img">
+            </a>
+            <div class="card__body">
+              <h5 class="card__title">A comprehensive list of human-computer interactions</h5>
+              <time datetime="2020-01-01" class="card__time">Jul 1, 2020</time>
+            </div>
+          </div>
+
+          <div class="card">
+            <a href="#">
+              <img src="./src/assets/images/rectangle-5.jpg" alt="" class="card__img">
+            </a>
+            <div class="card__body">
+              <h5 class="card__title">Why do people hate redesigns?</h5>
+              <time datetime="2020-01-01" class="card__time">Jul 1, 2020</time>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>
