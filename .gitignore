@@ -44,10 +44,6 @@ build
 */build
 **/build
 
-.next
-*/.next
-**/.next
-
 .cache
 */.cache
 **/.cache
@@ -60,21 +56,10 @@ build
 _draft
 .eslintcache
 
-src/styles/icons/*
-!src/styles/icons/react
-
-pages/ui.js
-
 .vscode
 .vscode/*
 .vscode/settings.json
 
-
-src/locales/missings
-src/locales/missings/**/*
-
-cypress/screenshots/**/*
-cypress/videos/**/*
 
 package-lock.json
 yarn.lock
